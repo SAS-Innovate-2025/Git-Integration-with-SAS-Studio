@@ -1,14 +1,12 @@
 ![Global Enablement & Learning](https://gelgitlab.race.sas.com/GEL/utilities/writing-content-in-markdown/-/raw/master/img/gel_banner_logo_tech-partners.jpg)
 
-# Versioning with SAS Studio Git Integration
-
-Workshop Code: PSGEL410.
+# Git Integration with SAS Studio 
 
 Learn how to work with Git in SAS Studio.
 
 ## Important Information
 
-This site provides the hands-on instructions for a specific workshop provided by the [SAS Global Enablement and Learning team](mailto:contactgel@sasoffice365.onmicrosoft.com).  The instructions in these pages are specific to the workshop and ***should not*** be considered a replacement for the official [SAS Documentation](http://documentation.sas.com).  Some parts of these instructions will **only** work correctly in the Lab environments provided by the [SAS Global Enablement and Learning team](mailto:contactgel@sasoffice365.onmicrosoft.com).
+This site provides the hands-on instructions for a specific SAS Innovate 2025 provided by the [SAS Global Enablement and Learning team](mailto:contactgel@sasoffice365.onmicrosoft.com).  The instructions in these pages are specific to the workshop and ***should not*** be considered a replacement for the official [SAS Documentation](http://documentation.sas.com).  Some parts of these instructions will **only** work correctly in the Lab environments provided by the [SAS Global Enablement and Learning team](mailto:contactgel@sasoffice365.onmicrosoft.com).
 
 All content within this site is Copyright &copy; SAS Institute Inc. All Rights Reserved.
 
@@ -28,7 +26,7 @@ Additionally, you will learn how to reset a branch to a previous commit, rebase 
 
 In a nutshell, the workshop will add Git as a useful tool to your developer's grab bag.
 
-## Workshop Course Card
+## Session Information
 
 * Estimated Duration: 7.5 hours of content and exercises.
 * SAS Viya Cadence: 2024.09 LTS Release (September 2024)​.
@@ -69,4 +67,4 @@ In a nutshell, the workshop will add Git as a useful tool to your developer's gr
 
 ## Thank You
 
-Thank you for taking this course. Please leave feedback at the end of the course.
+Thank you for attending this session. Please leave feedback at the end.
