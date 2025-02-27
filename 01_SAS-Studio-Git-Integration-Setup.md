@@ -21,7 +21,7 @@ In this exercise, you will setup the integration between a GitHub repository and
 <br>
 
 ## Create Personal Access Token for GitHub
-1. In *Google Chrome*, navigate to <a href="https://github.com/maquee-sas/SASStudioWorkshop" target="_blank">https://github.com/maquee-sas/SASStudioWorkshop</a>.
+1. In *Google Chrome*, navigate to <a href="https://github.com" target="_blank">https://github.com</a>.
 1. Click **Sign in** to sign in with your *GitHub* credentials.
 
      > &#9755; If you do not already have *GitHub* credentials, then click **Sign Up** and follow the instructions to create them.  Please do the sign-up portion on a browser on your actual PC rather than the course image.  You can return to the course image if you want after the sign-up process or continue to work in GitHub on your PC.

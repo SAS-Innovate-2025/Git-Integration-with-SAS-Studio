@@ -23,11 +23,10 @@ In this exercise, you will edit a SAS program in your local Git repository and e
 1. Open the **Google Chrome** browser on your Windows RACE Image.
 1. Select the **SAS Viya** bookmark.
 1. Enter the following:
-   - User ID: **sasadm**
+   - User ID: **Alex**
    - Password: **lnxsas**
 
 1. Click **Sign In**.
-    ![](images/logIn.png)
 
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
 1. Select ![](images/ExplorerIcon.png) to view the **Explorer** tab in *SAS Studio*.
