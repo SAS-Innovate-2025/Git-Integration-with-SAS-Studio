@@ -97,11 +97,11 @@ In this exercise, you will edit a SAS program in your local Git repository and e
 
 1. In *Google Chrome*, navigate to your Github repository to see that the change is reflected there.  You stored the Github link in Visual Studio code in exercise 1.  It should look like this:  **https://github.com/<<(Your Github ID)>>/UsingGitInSASStudio**.
 
-   ![](images/GitURL.png)
-
 2. Click **Sign in** to sign in with your *GitHub* credentials.
 
 3. The **TopNCategories.sas** file should have your commit comment listed.
+
+
    ![](images/UpdatedFork.png)
 
 <br>

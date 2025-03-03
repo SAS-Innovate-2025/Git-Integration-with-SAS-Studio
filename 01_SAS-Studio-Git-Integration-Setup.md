@@ -85,7 +85,7 @@ In this exercise, you will setup the integration between a GitHub repository and
 
 ## Create a Fork of a GitHub Repository
 
-1. Enter **SASInnovate2025/Zephyr-System** in the *Search* area.
+1. Enter **SAS-Innovate-2025/Zephyr-System** in the *Search* area.
 
     ![](images/GitHub_Search.png)
 
