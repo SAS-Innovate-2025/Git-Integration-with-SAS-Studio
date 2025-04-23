@@ -169,15 +169,6 @@ In this exercise, you will setup the integration between a GitHub repository and
     ![](images/NewFolder.png)
 
 1. Select **OK** to create the folder.
-1. Right-click the *MyGitClone* folder and select **Add shortcut**.
-
-    ![](images/AddShortcut.png)
-
-1. Click **OK** to create a shortcut to the folder.
-1. Expand the **Folder Shortcuts** section to confirm the shortcut was created.
-
-    ![](images/FolderShortcut.png)
-
 <br>
 <br>
 
@@ -230,7 +221,10 @@ In this exercise, you will setup the integration between a GitHub repository and
 
 ## Exercise Navigation
 <!-- startnav -->
-
+* [01 SAS Studio-Git-Integration-Setup](/01_SAS-Studio-Git-Integration-Setup.md)**<-- you are here**
+* [02 SAS Studio SAS Program](/02_SAS_Studio_SAS_Program.md)
+* [03 SAS Studio GIT Branches 1](/03_SAS_Studio_GIT_Branches_1.md)
+* [04 SAS Studio GIT Branches 2](/04_SAS_Studio_GIT_Branches_2.md)
 <!-- endnav -->
 
 

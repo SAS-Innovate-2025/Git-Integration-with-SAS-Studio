@@ -13,15 +13,14 @@ In this exercise, you will work with Git branches in SAS Studio.
 - [SAS Studio - Working with Git Branches](#sas-studio---working-with-git-branches)
   - [Exercise Description](#exercise-description)
   - [Exercise Preparation](#exercise-preparation)
-  - [1. Create a Branch](#1-create-a-branch)
-  - [2. Merge a Branch into Main](#2-merge-a-branch-into-main)
-  - [3. Resolve a Merge Conflict](#3-resolve-a-merge-conflict)
+  - [Create a Feature Branch](#create-a-feature-branch)
+  - [Merge the Feature Branch into Main](#merge-the-feature-branch-into-main)
+  - [Resolve a Merge Conflict](#resolve-a-merge-conflict)
     - [Create Two Different Branches](#create-two-different-branches)
-    - [Changes on *your-branch*](#changes-on-your-branch)
-    - [Changes on *his-branch*](#changes-on-his-branch)
+    - [Make changes on *your-branch*](#make-changes-on-your-branch)
+    - [Make changes on *his-branch*](#make-changes-on-his-branch)
     - [Merge Conflict](#merge-conflict)
     - [Resolve the Conflict](#resolve-the-conflict)
-  - [End](#end)
   - [Navigation](#navigation)
 
 ## Exercise Preparation
@@ -36,7 +35,7 @@ In this exercise, you will work with Git branches in SAS Studio.
 
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
 
-## 1. Create a Branch
+## Create a Feature Branch
 
 1. Select ![](images/GITIcon.png) to view the **GIT** tab in *SAS Studio*.
 
@@ -57,7 +56,7 @@ In this exercise, you will work with Git branches in SAS Studio.
 
 <br>
 
-## 2. Merge a Branch into Main
+## Merge the Feature Branch into Main
 
 1. Select ![](images/ExplorerIcon.png) to view the **Explorer** tab in *SAS Studio*.
 
@@ -80,12 +79,14 @@ In this exercise, you will work with Git branches in SAS Studio.
 
 9.  Switch to the main branch.
 10. *Right Click* on the feature branch commit that is ahead of the main branch and select **Merge into main** and select the feature branch.
+
    ![](images/MergeBranch.png)
+
 11. Note that the main and feature branch are both on the same commit now.
 
 <br>
 
-## 3. Resolve a Merge Conflict
+## Resolve a Merge Conflict
 
 ### Create Two Different Branches
 
@@ -101,9 +102,10 @@ In this exercise, you will work with Git branches in SAS Studio.
    2. Name this branch, **his-branch**.
    3. *Un-check* **Checkout after create** and click **Create**.
 5. You should now have 4 branches, **main**, **his-branch**, **your-branch**, and your feature branch from earlier.
+
    ![](images/Branches.png)
 
-### Changes on *your-branch*
+### Make changes on *your-branch*
 
 1. Check out **your-branch** by choosing it from the **Current branch** drop down menu.
 
@@ -123,7 +125,7 @@ In this exercise, you will work with Git branches in SAS Studio.
 
    ![](images/yourBranchSave.png)
 
-### Changes on *his-branch*
+### Make changes on *his-branch*
 
 1. Check out **his-branch** by choosing it form the **Current branch** drop down menu.
 
@@ -163,25 +165,28 @@ In this exercise, you will work with Git branches in SAS Studio.
 
 1. Note that the file includes both **your-branch** and **his-branch** changes.
 1. If there is a conflict, you'll see both branches' content identified by branch. The conflict comes from the fact that, on the same line (20), *n* has different values on the two branches.
+
    ![](images/conflictEdit.png)
 
 1. Remove the **`<<<<`**, **`>>>>`**  and **`====`** lines.
-1. Leave the **%let n=11;** line.
+1. Leave the "**%let n=11;**" line.
 
    ![](images/deConflictedFile.png)
 
 1. Save and close the file.
 1. Stage and Commit with the comment, **Conflict Resolved**.
 1. Check the History tab to see the merge visual is complete.
+
    ![](images/mergeComplete.png)
 
 <br>
 
 
-## End
-
 ## Navigation
 
 <!-- startnav -->
-
+* [01 SAS Studio-Git-Integration-Setup](/01_SAS-Studio-Git-Integration-Setup.md)
+* [02 SAS Studio SAS Program](/02_SAS_Studio_SAS_Program.md)
+* [03 SAS Studio GIT Branches 1](/03_SAS_Studio_GIT_Branches_1.md)**<-- you are here**
+* [04 SAS Studio GIT Branches 2](/04_SAS_Studio_GIT_Branches_2.md)
 <!-- endnav -->
