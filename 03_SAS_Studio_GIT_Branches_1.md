@@ -18,7 +18,7 @@ In this exercise, you will work with Git branches in SAS Studio.
     - [Create Two Different Branches](#create-two-different-branches)
     - [Make changes on *your-branch*](#make-changes-on-your-branch)
     - [Make changes on *his-branch*](#make-changes-on-his-branch)
-    - [Merge Conflict](#merge-conflict)
+    - [Merge the Two Branches](#merge-the-two-branches)
     - [Resolve the Conflict](#resolve-the-conflict)
   - [Navigation](#navigation)
 
@@ -144,7 +144,7 @@ In this exercise, you will work with Git branches in SAS Studio.
 
 1. Stage and commit the changes with the comment, **his-branch commit**.
 
-### Merge Conflict
+### Merge the Two Branches
 
 1. Check out **your-branch** by choosing it from the **Current branch** drop down menu.
 1. Open the **History** tab, *right click* **his-branch commit** and select **Merge into your-branch > his-branch**.
